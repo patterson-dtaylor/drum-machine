@@ -1,0 +1,51 @@
+html {
+  font-size: 10px;
+  background: url(img/snare.jpg) bottom center;
+  background-size: cover;
+  background-color: rgba(254, 254, 254, 0.7);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4em solid black;
+  border-radius: .5em;
+  margin: 1em;
+  padding: 1em, .5em;
+  transition: all .07s ease;
+  width: 10em;
+  text-align: center;
+  color: white;
+  background: rgba(249, 254, 32, 0.1);
+  text-shadow: 0 0 .5em black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: rgb(255, 252, 0);
+  box-shadow: 0 0 1rem rgb(255, 252, 0);
+}
+
+kbd {
+  display: block;
+  font-size: 4em;
+}
+
+.sound {
+  font-size: 1.6em;
+  letter-spacing: .1em;
+  color: rgb(255, 252, 0);
+  text-transform: uppercase;
+}
