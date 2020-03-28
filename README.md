@@ -2,7 +2,7 @@
 
 ---
 
-This fun little project blends two think I love to do.  Play drums and code with JS.  This a drum machine was built with HTML, CSS, and JS. Click the Gitpage link in the description and give it a whirl!  
+This fun little project blends two things I love to do: play drums and code with JS.  This a drum machine was built with HTML, CSS, and JS. Click the Gitpage link in the description and give it a whirl!  
 
 ## Deployment
 
